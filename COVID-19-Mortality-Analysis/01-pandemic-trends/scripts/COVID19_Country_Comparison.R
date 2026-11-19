@@ -1,5 +1,5 @@
 data <- read.table(
-  "All_countries.csv",
+  "data/All_countries.csv",
   sep = ";",
   dec = ",",
   header = TRUE,
