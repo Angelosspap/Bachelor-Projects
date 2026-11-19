@@ -26,8 +26,8 @@ The dataset contains **65 observations and 7 variables**, including:
 
 Two datasets are included:
 
-- `data/All_countries.csv` — original monthly counts and cumulative totals.
-- `data/All_countries by million.csv` — population-adjusted cases and deaths per million inhabitants.
+- `data/All_countries.csv` - original monthly counts and cumulative totals.
+- `data/All_countries by million.csv` - population-adjusted cases and deaths per million inhabitants.
 
 Population-adjusted indicators help account for differences in population size when comparing countries.
 
@@ -57,11 +57,11 @@ All panels use a common vertical scale, allowing direct comparison of absolute c
 
 ## Tools and Technologies
 
-- **R** — statistical analysis and data processing
-- **ggplot2** — data visualization
-- **dplyr** — data manipulation
-- **ggthemes** — visualization themes
-- **CSV** — structured data storage
+- **R** - statistical analysis and data processing
+- **ggplot2** - data visualization
+- **dplyr** - data manipulation
+- **ggthemes** - visualization themes
+- **CSV** - structured data storage
 
 ## Project Structure
 
