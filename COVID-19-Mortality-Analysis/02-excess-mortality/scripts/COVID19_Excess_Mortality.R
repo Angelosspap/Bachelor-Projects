@@ -8,7 +8,7 @@ library(ggthemes)
 
 # Load data
 excess_data <- read.table(
-  file.choose(),
+  "data/Excess Mortality all countries.csv",
   sep = ";",
   dec = ",",
   header = TRUE,
