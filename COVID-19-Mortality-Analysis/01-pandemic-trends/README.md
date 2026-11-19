@@ -86,24 +86,27 @@ Unlike absolute death counts, deaths per million inhabitants account for differe
 │   ├── All_countries.csv
 │   └── All_countries by million.csv
 ├── scripts/
-│   └── COVID19_Country_Comparison.R
+│   ├── COVID19_Country_Comparison.R
+│   └── COVID19_Deaths_Per_Million.R
 └── figures/
-    └── monthly_cases_by_country.png
+    ├── monthly_cases_by_country.png
+    └── deaths_per_million.png
 ```
 
-## Reproducing the Visualization
+## Reproducing the Visualizations
 
-To reproduce the monthly cases comparison:
+To reproduce the analyses:
 
 1. Install R and the required packages: `ggplot2`, `dplyr`, and `ggthemes`.
-2. Download the dataset and R script from this directory.
-3. Ensure that the script can locate `All_countries.csv`.
-4. Run `COVID19_Country_Comparison.R` in RStudio.
+2. Download the datasets and R scripts from this directory.
+3. Set the R working directory to `01-pandemic-trends`.
+4. Run the scripts:
+   - `scripts/COVID19_Country_Comparison.R` for monthly reported cases.
+   - `scripts/COVID19_Deaths_Per_Million.R` for monthly deaths per million inhabitants.
 
-The original CSV uses semicolons as separators, commas as decimal marks, and Windows Greek character encoding (`CP1253`).
+The CSV files use semicolons as separators, commas as decimal marks, and Windows Greek character encoding (`CP1253`).
 
-The R script uses this encoding when importing the dataset.
-
+**Note:** Both scripts should reference their input files through the `data/` directory. If a script still uses a local path from the original project, update that path before running it from the repository.
 ## Limitations
 
 - The analysis is based on historical reported COVID-19 data.
