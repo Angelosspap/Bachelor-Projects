@@ -55,6 +55,20 @@ The visualization highlights substantial differences in the timing and magnitude
 
 All panels use a common vertical scale, allowing direct comparison of absolute case counts. However, differences in population size should be considered when interpreting these comparisons.
 
+## Monthly COVID-19 Deaths per Million by Country
+
+The following visualization presents monthly reported COVID-19 deaths per million inhabitants across Belgium, Denmark, Greece, Italy, and Finland.
+
+![Monthly COVID-19 deaths per million by country](figures/deaths_per_million.png)
+
+The results reveal substantial differences in mortality trends across the five countries. Belgium exhibits the highest monthly peaks, while Italy also experiences pronounced increases during multiple periods. Greece and Denmark show notable increases in later periods, whereas Finland maintains comparatively lower reported mortality throughout the observed period.
+
+Unlike absolute death counts, deaths per million inhabitants account for differences in population size, providing a more meaningful basis for cross-country comparisons.
+
+**Analysis:** `scripts/COVID19_Deaths_Per_Million.R`
+
+**Data:** `data/All_countries by million.csv`
+
 ## Tools and Technologies
 
 - **R** - statistical analysis and data processing
