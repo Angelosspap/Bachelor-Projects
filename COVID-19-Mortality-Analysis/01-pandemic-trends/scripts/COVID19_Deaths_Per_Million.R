@@ -9,7 +9,7 @@ library(ggthemes)
 # Run this script with the working directory set to 01-pandemic-trends
 
 data_million <- read.table(
-  "By million/All_countries by million.csv",
+  "data/All_countries by million.csv",
   sep = ";",
   dec = ",",
   header = TRUE,
