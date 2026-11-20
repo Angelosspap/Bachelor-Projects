@@ -8,7 +8,7 @@ library(ggthemes)
 
 # 1. Load dataset
 data <- read.table(
-  file.choose(),
+  "data/All_countries.csv",
   sep = ";",
   dec = ",",
   header = TRUE,
