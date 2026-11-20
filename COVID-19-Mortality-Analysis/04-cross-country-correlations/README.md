@@ -30,7 +30,7 @@ The analysis uses monthly COVID-19 data covering **February 2020 to February 202
 |---|---|
 | Dataset | `All_countries.csv` |
 | Countries | 5 |
-| Time period | February 2020 – February 2021 |
+| Time period | February 2020 - February 2021 |
 | Observations | 65 |
 | Monthly observations per country | 13 |
 | Original variables | 7 |
@@ -95,16 +95,16 @@ This analysis examines the association between monthly reported COVID-19 cases a
 
 | Country Pair | Spearman ρ |
 |---|---:|
-| Greece – Italy | 0.879 |
-| Greece – Denmark | 0.890 |
-| Greece – Belgium | 0.912 |
-| Greece – Finland | 0.813 |
-| Italy – Denmark | 0.929 |
-| Italy – Belgium | 0.890 |
-| Italy – Finland | 0.912 |
-| Denmark – Belgium | **0.945** |
-| Denmark – Finland | 0.896 |
-| Belgium – Finland | 0.841 |
+| Greece - Italy | 0.879 |
+| Greece - Denmark | 0.890 |
+| Greece - Belgium | 0.912 |
+| Greece - Finland | 0.813 |
+| Italy - Denmark | 0.929 |
+| Italy - Belgium | 0.890 |
+| Italy - Finland | 0.912 |
+| Denmark - Belgium | **0.945** |
+| Denmark - Finland | 0.896 |
+| Belgium - Finland | 0.841 |
 
 *Values rounded to three decimal places from the R calculations.*
 
@@ -122,20 +122,20 @@ However, correlation does not establish that countries experienced identical inf
 
 ### Scatter Plots — Cases
 
-The following figures reproduce the pairwise comparisons presented in Figures 4.1–4.10 of the original report.
+The following figures reproduce the pairwise comparisons presented in Figures 4.1-4.10 of the original report.
 
 | Original Figure | Country Pair | Visualization |
 |---|---|---|
-| 4.1 | Greece – Italy | [View plot](figures/cases/greece_vs_italy_cases.png) |
-| 4.2 | Greece – Denmark | [View plot](figures/cases/greece_vs_denmark_cases.png) |
-| 4.3 | Greece – Belgium | [View plot](figures/cases/greece_vs_belgium_cases.png) |
-| 4.4 | Greece – Finland | [View plot](figures/cases/greece_vs_finland_cases.png) |
-| 4.5 | Italy – Denmark | [View plot](figures/cases/italy_vs_denmark_cases.png) |
-| 4.6 | Italy – Belgium | [View plot](figures/cases/italy_vs_belgium_cases.png) |
-| 4.7 | Italy – Finland | [View plot](figures/cases/italy_vs_finland_cases.png) |
-| 4.8 | Denmark – Belgium | [View plot](figures/cases/denmark_vs_belgium_cases.png) |
-| 4.9 | Denmark – Finland | [View plot](figures/cases/denmark_vs_finland_cases.png) |
-| 4.10 | Belgium – Finland | [View plot](figures/cases/belgium_vs_finland_cases.png) |
+| 4.1 | Greece - Italy | [View plot](figures/cases/greece_vs_italy_cases.png) |
+| 4.2 | Greece - Denmark | [View plot](figures/cases/greece_vs_denmark_cases.png) |
+| 4.3 | Greece - Belgium | [View plot](figures/cases/greece_vs_belgium_cases.png) |
+| 4.4 | Greece - Finland | [View plot](figures/cases/greece_vs_finland_cases.png) |
+| 4.5 | Italy - Denmark | [View plot](figures/cases/italy_vs_denmark_cases.png) |
+| 4.6 | Italy - Belgium | [View plot](figures/cases/italy_vs_belgium_cases.png) |
+| 4.7 | Italy - Finland | [View plot](figures/cases/italy_vs_finland_cases.png) |
+| 4.8 | Denmark - Belgium | [View plot](figures/cases/denmark_vs_belgium_cases.png) |
+| 4.9 | Denmark - Finland | [View plot](figures/cases/denmark_vs_finland_cases.png) |
+| 4.10 | Belgium - Finland | [View plot](figures/cases/belgium_vs_finland_cases.png) |
 
 All visualizations are available in the [`figures/cases/`](figures/cases/) directory.
 
@@ -149,16 +149,16 @@ The second analysis examines whether monthly COVID-19 mortality patterns were si
 
 | Country Pair | Spearman ρ |
 |---|---:|
-| Greece – Italy | 0.747 |
-| Greece – Denmark | 0.748 |
-| Greece – Belgium | 0.687 |
-| Greece – Finland | 0.637 |
-| Italy – Denmark | 0.922 |
-| Italy – Belgium | 0.890 |
-| Italy – Finland | 0.896 |
-| Denmark – Belgium | 0.820 |
-| Denmark – Finland | **0.960** |
-| Belgium – Finland | 0.857 |
+| Greece - Italy | 0.747 |
+| Greece - Denmark | 0.748 |
+| Greece - Belgium | 0.687 |
+| Greece - Finland | 0.637 |
+| Italy - Denmark | 0.922 |
+| Italy - Belgium | 0.890 |
+| Italy - Finland | 0.896 |
+| Denmark - Belgium | 0.820 |
+| Denmark - Finland | **0.960** |
+| Belgium - Finland | 0.857 |
 
 *Values rounded to three decimal places from the R calculations.*
 
@@ -176,20 +176,20 @@ Compared with the cases analysis, mortality correlations exhibit a wider range o
 
 ### Scatter Plots — Deaths
 
-The following figures reproduce the comparisons presented in Figures 4.11–4.20 of the original report.
+The following figures reproduce the comparisons presented in Figures 4.11-4.20 of the original report.
 
 | Original Figure | Country Pair | Visualization |
 |---|---|---|
-| 4.11 | Greece – Italy | [View plot](figures/deaths/greece_vs_italy_deaths.png) |
-| 4.12 | Greece – Denmark | [View plot](figures/deaths/greece_vs_denmark_deaths.png) |
-| 4.13 | Greece – Belgium | [View plot](figures/deaths/greece_vs_belgium_deaths.png) |
-| 4.14 | Greece – Finland | [View plot](figures/deaths/greece_vs_finland_deaths.png) |
-| 4.15 | Italy – Denmark | [View plot](figures/deaths/italy_vs_denmark_deaths.png) |
-| 4.16 | Italy – Belgium | [View plot](figures/deaths/italy_vs_belgium_deaths.png) |
-| 4.17 | Italy – Finland | [View plot](figures/deaths/italy_vs_finland_deaths.png) |
-| 4.18 | Denmark – Belgium | [View plot](figures/deaths/denmark_vs_belgium_deaths.png) |
-| 4.19 | Denmark – Finland | [View plot](figures/deaths/denmark_vs_finland_deaths.png) |
-| 4.20 | Belgium – Finland | [View plot](figures/deaths/belgium_vs_finland_deaths.png) |
+| 4.11 | Greece - Italy | [View plot](figures/deaths/greece_vs_italy_deaths.png) |
+| 4.12 | Greece - Denmark | [View plot](figures/deaths/greece_vs_denmark_deaths.png) |
+| 4.13 | Greece - Belgium | [View plot](figures/deaths/greece_vs_belgium_deaths.png) |
+| 4.14 | Greece - Finland | [View plot](figures/deaths/greece_vs_finland_deaths.png) |
+| 4.15 | Italy - Denmark | [View plot](figures/deaths/italy_vs_denmark_deaths.png) |
+| 4.16 | Italy - Belgium | [View plot](figures/deaths/italy_vs_belgium_deaths.png) |
+| 4.17 | Italy - Finland | [View plot](figures/deaths/italy_vs_finland_deaths.png) |
+| 4.18 | Denmark - Belgium | [View plot](figures/deaths/denmark_vs_belgium_deaths.png) |
+| 4.19 | Denmark - Finland | [View plot](figures/deaths/denmark_vs_finland_deaths.png) |
+| 4.20 | Belgium - Finland | [View plot](figures/deaths/belgium_vs_finland_deaths.png) |
 
 All visualizations are available in the [`figures/deaths/`](figures/deaths/) directory.
 
@@ -205,8 +205,8 @@ Comparing the two analyses provides additional insight into the relationships be
 | Highest Spearman correlation | 0.945 | 0.960 |
 | Lowest Spearman correlation | 0.813 | 0.637 |
 | Mean pairwise Spearman correlation | 0.881 | 0.816 |
-| Strongest country pair | Denmark – Belgium | Denmark – Finland |
-| Weakest country pair | Greece – Finland | Greece – Finland |
+| Strongest country pair | Denmark - Belgium | Denmark - Finland |
+| Weakest country pair | Greece - Finland | Greece - Finland |
 
 ### Main Observations
 
