@@ -2,7 +2,7 @@
 
 ## Overview
 
-This section presents the nonparametric statistical analysis conducted in Chapter 3 of my bachelor's thesis, *The Effect of the Pandemic on Mortality for the Present and the Future*, completed at the University of Piraeus in 2021.
+This section presents the nonparametric statistical analysis conducted in Chapter 3 of my bachelor's project, *The Effect of the Pandemic on Mortality for the Present and the Future*, completed at the University of Piraeus in 2021.
 
 The analysis investigates differences in reported COVID-19 cases across **five European countries** and **six age groups**, using normality tests, nonparametric hypothesis testing, and comparative visualizations.
 
@@ -47,7 +47,7 @@ The hypotheses were:
 - **H₀:** The observations follow a normal distribution.
 - **H₁:** The observations do not follow a normal distribution.
 
-The thesis reports statistically significant results across all examined country-age-group combinations, leading to rejection of the normality assumption at the 5% significance level.
+The project reports statistically significant results across all examined country-age-group combinations, leading to rejection of the normality assumption at the 5% significance level.
 
 This motivated the use of nonparametric statistical methods in subsequent analyses.
 
@@ -55,13 +55,13 @@ This motivated the use of nonparametric statistical methods in subsequent analys
 
 | Country | Shapiro-Wilk results |
 |---|---|
-| Belgium | See Table 3.1 of the thesis |
+| Belgium | See Table 3.1 of the project |
 | Denmark | [View results](figures/shapiro_denmark.png) |
 | Finland | [View results](figures/shapiro_finland.png) |
 | Greece | [View results](figures/shapiro_greece.png) |
 | Italy | [View results](figures/shapiro_italy.png) |
 
-The Belgian results are referenced through the thesis rather than an additional screenshot because a discrepancy was identified between a reproduced statistic and Table 3.1.
+The Belgian results are referenced through the project rather than an additional screenshot because a discrepancy was identified between a reproduced statistic and Table 3.1.
 
 ### 2.2 Kruskal-Wallis Test by Country
 
@@ -72,7 +72,7 @@ The hypotheses were:
 - **H₀:** The age groups have the same underlying distribution.
 - **H₁:** At least one age group differs in distribution.
 
-According to Tables 3.6-3.10 of the thesis, all five countries produced p-values below 0.05.
+According to Tables 3.6-3.10 of the project, all five countries produced p-values below 0.05.
 
 Therefore, the null hypothesis was rejected for every country, indicating statistically significant differences between age groups.
 
@@ -88,7 +88,7 @@ Therefore, the null hypothesis was rejected for every country, indicating statis
 
 The analysis was then reversed to investigate each age group across the five countries.
 
-To account for differences in country population sizes, the thesis used reported COVID-19 cases per million inhabitants for these statistical comparisons.
+To account for differences in country population sizes, the project used reported COVID-19 cases per million inhabitants for these statistical comparisons.
 
 The Shapiro-Wilk test was performed separately for each country within each age group.
 
@@ -146,7 +146,7 @@ The charts use consistent country colors and a Solarized visual theme.
 
 ![Country-specific COVID-19 cases for ages 0-15](figures/age_0-15_by_country.png)
 
-The thesis describes generally lower case rates in this age group, with notable increases in Belgium and Denmark during different periods and comparatively lower rates in Greece and Finland.
+The project describes generally lower case rates in this age group, with notable increases in Belgium and Denmark during different periods and comparatively lower rates in Greece and Finland.
 
 ### Age group 15-24
 
@@ -250,7 +250,7 @@ The script expects the six CSV files to be located in `03-nonparametric-statisti
 
 ## 7. Academic Context
 
-This analysis forms part of the bachelor's thesis:
+This analysis forms part of the bachelor's project:
 
 *The Effect of the Pandemic on Mortality for the Present and the Future*  
 **University of Piraeus, 2021**
