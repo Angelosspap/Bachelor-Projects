@@ -2,7 +2,7 @@
 
 ## Overview
 
-This section presents the nonparametric statistical analysis conducted in Chapter 3 of my bachelor's project, *The Effect of the Pandemic on Mortality for the Present and the Future*, completed at the University of Piraeus in 2021.
+This section presents the nonparametric statistical analysis conducted in Chapter 3 of the project, *The Effect of the Pandemic on Mortality for the Present and the Future*, completed at the University of Piraeus in 2021.
 
 The analysis investigates differences in reported COVID-19 cases across **five European countries** and **six age groups**, using normality tests, nonparametric hypothesis testing, and comparative visualizations.
 
