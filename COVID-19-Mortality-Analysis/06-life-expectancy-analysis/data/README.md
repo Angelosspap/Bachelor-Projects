@@ -2,7 +2,7 @@
 
 ## Overview
 
-This directory contains the dataset used for the pre-pandemic life expectancy analysis presented in Chapter 5.1 of the original bachelor's thesis (University of Piraeus, 2021).
+This directory contains the dataset used for the pre-pandemic life expectancy analysis presented in Chapter 5.1 of the original bachelor's project (University of Piraeus, 2021).
 
 ## Dataset File
 
@@ -32,7 +32,7 @@ The dataset contains 25 country-year observations.
 
 ## Data Source
 
-The values were compiled from **Table 5.1 of the original thesis**, which reports life expectancy statistics sourced from Eurostat.
+The values were compiled from **Table 5.1 of the original project**, which reports life expectancy statistics sourced from Eurostat.
 
 The Excel file was structured for use in R to reproduce the three comparative visualizations from Chapter 5.1.
 
