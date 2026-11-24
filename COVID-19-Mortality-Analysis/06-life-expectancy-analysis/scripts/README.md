@@ -2,7 +2,7 @@
 
 ## Overview
 
-This directory contains the R script used to reproduce the pre-pandemic life expectancy visualizations presented in Chapter 5.1 of the original bachelor's thesis, *The Effect of the Pandemic on Mortality for the Present and the Future* (University of Piraeus, 2021).
+This directory contains the R script used to reproduce the pre-pandemic life expectancy visualizations presented in Chapter 5.1 of the original bachelor's project, *The Effect of the Pandemic on Mortality for the Present and the Future* (University of Piraeus, 2021).
 
 ## Script
 
@@ -56,7 +56,7 @@ The three generated plots can be viewed in RStudio. The corresponding PNG files 
 
 ## Reproducibility
 
-The script reproduces the descriptive visualization approach of Figures 5.1–5.3 in the original thesis.
+The script reproduces the descriptive visualization approach of Figures 5.1–5.3 in the original project.
 
 It focuses exclusively on pre-pandemic observations (2005–2019) and does not perform predictive modeling or estimate the causal effects of COVID-19.
 
